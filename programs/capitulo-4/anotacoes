@@ -1,0 +1,16 @@
+Em C existem três laços distindos: while, for e do... while.
+
+Nos laços for e while, o teste da condição a eles atribuída e feito antes de qualquer instrução, o que não acontece com do... while.
+
+Laço Encadeado: um laço dentro de outro.
+
+Laço infinito: aquele com uma condição sempre verdadeira.
+
+break: termina o laço.
+
+continue: termina a iteração e parte para a próxima.
+
+Operadores ++ e -- incrementam e decrementam, respectivamente, uma variável.
+
+Eles podem ser usados na esquerda ou direita: incrementando e devolvendo o valor ou o inverso.
+

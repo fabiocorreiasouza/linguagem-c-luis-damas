@@ -1,0 +1,48 @@
+Resumo
+
+Formatos de Leitura e Escrita:
+
+char		%c		(caractere -- 1 byte)
+int		%d ou %i	(inteiro decimal -- 2 ou 4 bytes)
+int		%o		(inteiro octal)
+int		%x ou %X	(inteiro hexadecimal)
+short int	%hd		(pequeno -- 2 bytes)
+long int	%ld		(grande -- 4 bytes)
+
+unsigned short int	%hu	(inteiro pequeno positivo)
+unsigned int		%u	(inteiro positivo)
+unsigned long int	%lu     (inteiro grande positivo)
+
+float		%f, %e ou %E
+double		%f, %e ou %E
+
+
+CAP 2 -- RESUMO
+
+A linguagem C apresenta tipos de dados básicos -- char int, float e double
+
+Podemos declarar variáveis de cada um desses tipos para armazenar valores. Declarada, a variável ficará um valor aleatório
+
+Atribuição é feita com o sinal =
+
+Após declaradas, podem ser realizadas atribuições encadeadas (a=b=c=2;)
+
+Uma variável pode ser iniciada assim que for declarada (int a=2;)
+
+Nomes de variáveis devem ser explicativos
+
+Qualquer operação entre inteiros retorna um inteiro
+
+Números reais podem ser operados, exceto pelo módulo (%)
+
+Leitura e escrita podem ser feitas através das funções scanf() e printf(), respectivamente, utilizando formatos adequatos. Em scanf(), variáveis devem ter &.
+
+Int permite variações no tamanho, short e long, e na forma, signed e unsigned
+
+Char permite variações signed e unsigned
+
+Variáveis char são como inteiros guardados num único byte. Logo, podem ser operadas.
+
+Para alterações  de tipo, use "casting", uma alteração temporária
+
+Não se deve usar formatos inadequados para leitura de variáveis

@@ -1,0 +1,29 @@
+Capítulo 1
+
+Em c, um programa começa com a função main().
+
+O código a executar é colocado entre {}.
+
+Um "Bloco" é formado por qualquer conjunto de instruções entre {}.
+
+Cada instrução deve ser seguida de ponto e vírgula (;).
+
+A disposição do código é arbitrária e depende das preferências de cada programador.
+
+C é Case Sensitive.
+
+As strings em C são delimitadas pelo caractere aspas ".
+
+Para escrever uma mensagem na tela usa-se a função printf().
+
+A função printf não faz parte da linguagem C. Pertence à sua extensa biblioteca e funções.
+
+Para termos acesso a esta e outras funções de entrada/saída devemos incluir nos nossos programadas o arquivo stdio.h através da diretiva ao pré-processador #include <stdio.h>.
+
+As linhas começadas por # (#include, #define etc.) não são C, mas sim diretivas ao pré-processador. Por isso não devem ser seguidas de ponto-e-vírgula.
+
+A representação de caracteres especiais ou caracteres que, de outra forma, seriam difíceis de representar faz-se através de um conjunto de dois ou mais caracteres, sendo em geral o primeiro caractere a barra invertida (\).
+
+Os comentários são escritos entre /* e */ e são simplesmente ignorados pelo compilador.
+
+Não podem existir comentários dentro de comentários.

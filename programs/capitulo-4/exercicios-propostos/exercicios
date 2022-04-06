@@ -1,0 +1,156 @@
+1.1) verdade
+1.2) falso
+1.3) verdade
+1.4) falso
+1.5) falso
+1.6) verdadeiro
+1.7) falso
+1.8) falso
+1.9) falso
+1.10) ?
+1.11) falso
+1.12) verdadeiro
+1.13) verdadeiro
+1.14) verdadeiro
+1.15) falso
+1.16) falso
+1.17) verdadeiro
+1.18) falso
+1.19) verdadeiro
+1.20) verdadeiro
+
+while (1)
+{
+    /* instrução */
+
+    if (/* condição */) break;
+}
+
+
+/* carga inicial */
+while (/* condição */)
+{
+    /* instrução */
+
+    /* iteração */
+}
+
+/* carga inicial */
+for ( ; /* condição */; )
+{
+    /* instruão */
+
+    /* iteração */
+}
+
+Nenhuma. Tanto em for quanto em while, break tem o mesmo comportamento
+
+Nenhuma, visto que, em ambos os casos, continue prossegue para a próxima iteração
+
+int i = 1;
+while (i <= 20)
+{
+    if (i == 10)
+        continue;
+    else
+        printf("%d\n", i);
+    i++
+}
+
+
+8)
+main()
+{
+    int nRamos, i, j;
+
+    printf("Introd. a quantidade de ramos: "); scanf("%d", &nRamos);
+
+    for (i=1; i<=nRamos; i++)
+    {
+        for (j=1; j<=i; j++) putchar('*');        
+        putchar('\n');
+    }
+}
+
+9)
+main()
+{
+    int nRamos, i, j;
+
+    printf("Introd. a quantidade de ramos: "); scanf("%d", &nRamos);
+
+    for (i=1; i<=nRamos; i++)
+    {
+        for (j=1; j<=i; j++) printf("%c", (char) i+64);
+        putchar('\n');
+    }
+}
+
+10)
+main()
+{
+    int numero;
+
+    do
+    {
+        printf("Introd. um número: "); scanf("%d", &numero);
+    }
+    while (numero<=1 || numero>=100);
+
+    puts("Fim");
+}
+
+11)
+main()
+{
+    int n;
+
+    for (n=0; n<=255; n++)
+    {
+        if (n%20 == 0) scanf(" c");
+        printf("%3d --> %c\n", n, (char) n);
+    }
+
+}
+
+12)
+main()
+{
+    int i, n1, n2, aux;
+
+    printf("Introduza 2 numeros entre 0 e 255 [n1 n2]: ");
+    scanf("%d %d", &n1, &n2);
+
+    if (n1 > n2)
+    {
+        aux = n1;
+        n1 = n2;
+        n2 = aux;
+    }
+
+    for (i=n1; i<=n2; i++)
+        printf("%3d --> %c\n", i, (char) i);
+}
+
+13)
+++i incrementa e, em seguida, devolve o novo valor.
+i++ devolve o valor e, em seguida, incrementa para um novo.
+
+14)
+Sim, visto que a ordem de incremento e devolução do valor não faria diferença
+
+15)
+Não, visto que constantes não mudam de valor.
+
+16)
+a=-2: atribuição de -2 à a; a-=2: decréscimo de a em 2 unidades.
+
+17)
+looping.
+
+18)
+Enquanto o primeiro laço nunca seja executado, o segundo é um looping.
+
+19)
+Escreve "201".
+

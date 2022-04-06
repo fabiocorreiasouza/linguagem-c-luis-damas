@@ -1,0 +1,29 @@
+C não possui o tipo lógico. Qualquer valor diferente de 0 representa Verdade.
+
+Qualquer valor de variável ou expressão pode ser usado como valor lógico. Embora não se deva usar valores reais, devido aos erros de arredondamento.
+
+testes de condições podem ser feitos por if-else e switch.
+
+a componente else é opcional
+
+caso seja necessário mais de uma instrução, use um bloco
+
+Bloco é um conjunto de instruções armazenadas como um todo.
+
+Indentação não tem efeito na compilação
+
+Indentação é subjetiva
+
+É possível operar valores lógicos através de operadores binários, && e ||, e unário (!).
+
+&& tem maior precedencia que ||
+
+Caso uma mesma variável possa receber valores diferentes na condição, if-else pode ser substituída pelo operador ternário (?:).
+
+switch elimina conjuntos extensos de instruções if-else encadeadas.
+
+switch só admite teste de constantes predefinidos dos tipos char, int ou long.
+
+uma vez que um case seja executado, switch executa todos os cases seguintes, até enconstrar a instrução break.
+
+Por causa de break, não é necessário chaves em switch.

@@ -1,0 +1,26 @@
+1)
+v == &v[0]:
+	Verdadeiro, pois o nome de qualquer vetor corresponde ao endereço do primeiro elemento desse vetor.
+
+2)
+	Ao atribuir v à p (p = v), o ponteiro p conterá o endereço do primeiro elemento do vetor. Com isso, é possivel avançar para os endereços seguintes via operação de ponteiros, posto que os elementos de qualquer vetor são alocados na memória RAM consecutivamente.
+
+3) Porque funções recursivas são menos eficientes?
+	Devido ao custo adicional Associado. Sempre que se faz uma chamada recursiva é necessario empilhar todos os parâmetros na memória e criar um ambiente para a exeução da nova função; todas essas operações consomem algum tempo, que irá se revelar importante em funções que sejam muito utilizadas.
+
+...
+
+5)parâmetros-> capa -123 5 beta sigma
+
+.a) argc					5
+.b) argv[3]				&argv[3][0]
+.c) argv[argc-2]			&argv[3][0]
+.d) *argv[2]				'5'
+.e) atoi(argv[1])		-123
+f) atoi(argv[1]+1)		123
+g) isdigit(argc)		True
+h) toupper(*argv[4])	'S'
+i) toupper(*argv[3])+1	'C'
+j) **argv				'c'
+
+

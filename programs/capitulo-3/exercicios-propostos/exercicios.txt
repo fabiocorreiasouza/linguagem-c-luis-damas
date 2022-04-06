@@ -1,0 +1,69 @@
+1)
+Porque variáveis float estão sujeitas a erros de arredondamento inesperados.
+
+2.1)
+O else é facultativo
+
+2.2)
+If tem parênteses obrigatórios
+
+2.4)
+Ifs e else só podem conter uma instrução
+
+2.6)
+Na condição do if, pode haver uma constante, variável ou expressão
+
+3)
+Cada if termina após de uma instrução ou bloco. Cada else pertence ao último if
+
+4)
+Um bloco pode ser constituído de uma instrução, sim.
+
+5)
+Depois de um bloco, ponto e vírgula não é obrigatório.
+
+6) [exame]
+Sim: enquando o primeiro apresenta um teste de igualdade sintaticamente correto, o segundo, uma atribuição -- como o valor atribuído é devolvido, o resultado é falso, por causa do 0.
+
+7) [exame]
+d) programação
+
+8)
+Um programa indentado é mais legível
+
+9)
+d) Compilador ignora a identação
+
+10)
+vantanges: if pode testar uma expressão complexa;
+if não está limitado a valores constantes
+
+desvantagens: if tem  menos legibilidade ao tratar de muitas opções;
+switch permite encadear diversos cases, com a instrução brak
+
+11)
+Instrução break serve apenas para switch e laços.
+
+12)
+a) Falso
+b) Verdade
+c) Verdade
+d  Falso
+
+13)
+a) Falso
+b) Verdade
+c) Falso
+d) Verdade
+
+14)
+if (x == 0 && y <= 32) printf("Sucesso!!!");
+
+15.1)
+break só é permitido em switch e laços
+
+15.2)
+then não é permitido em if, na linguagem C.
+
+15.3)
+switch não tem else, mas sim default.

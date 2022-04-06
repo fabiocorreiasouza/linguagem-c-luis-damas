@@ -1,0 +1,72 @@
+1)
+e) float f, g, c;
+g) char ch1 'A', ch2 = 'A';
+
+2)
+variáveis são sempre iniciadas com um valor aleatório
+
+3)
+Valor, _Kabonga, MENOS, a10, F1 são corretos. Variáveis contém caracteres alfanumérocos e underline, e são iniciadas com letras ou underline, apenas.
+
+4)
+nome de variável:
+deve indicar aquilo que armazena;
+deve ser o mais explícito possível;
+pode, mas não deve, começar com underline(_);
+pode conter mais do que um caractere.
+
+5)
+int	-> %d ou %i;
+float	-> %f ou %e ou %E
+char	-> %c
+short int -> %hd
+long int  -> %ld
+signed long int -> %ld
+
+6)
+a) float reserva espaço na memória para real com precisão simples, double para dupla;
+
+c) char pode ser signed e unsigned;
+
+d) uma variável unsigned comporta valores superiores a uma signed;
+
+h) o operador móddulo (%) não serve para reais.
+
+
+7.1)
+erro: duas variáveis com nomes idênticos.
+
+7.2)
+erro: nome de variável não convém, pois "int" está reservado.
+
+7.3)
+erro: variáveis y e z (em int x=y=x=0) não declaradas.
+correto:
+int x, y, z;
+x = y = z = 0;
+
+ou então
+
+int x=0, y=0, z=0;
+
+
+8.1)
+erro: formatação incorreta no primeiro argumento de scanf().
+scanf() serve unicamente para ler valores, e não deve haver outros caracteres na string do formato.
+
+8.2)
+erro: formatação incorreta no primeiro argumento de scanf()
+
+8.3)
+formatação incorreta no primeiro argumento de scanf() -- erro do respectivo tipo
+
+9)
+#include <stdio.h>
+
+main()
+{
+	int dia, mes, ano;
+	printf("Insira um dia, mes e ano: ");
+	scanf("%d%d%d", &dia, &mes, &ano);
+	printf("Data: %d/%d/%d\n", dia, mes, ano);
+}

@@ -1,0 +1,112 @@
+Exercícios propostos
+
+1)
+main() é a função principal de todos os programas
+
+2)
+As instruções terminam com ponto-e-vírgula.
+
+3)
+Blocos são delimitados por chaves.
+
+4)
+printf() não é C, mas faz parte de uma de suas bibliotecas.
+
+5)
+#include <stdio.h> é uma diretiva ao pré-processador que diz "adiciona a biblioteca stdio ao programa".
+
+6)
+.h indica um arquivo composto por cabeçalhos
+
+7)
+arquivos .h são conhecidos como file headers
+
+8)
+#include <stdio.h> é desnecessário quando um programa não usa funções de entrada/saída
+
+9)
+Sim, pois trata-se de caracteres normais, que não são executados pelo compilador.
+
+10)
+stdio significa "standart input/output"
+
+11.1)
+erro: "Main()" com m maiúsculo
+correção: "main()"
+
+11.2)
+erro: "main" sem parênteses
+correção: main()
+
+11.3)
+erro: "print (...)" sem f, e separado dos parênteses
+correção: printf(...)
+
+11.4)
+erro: "printf(...)(...)" com parênteses duplicados
+correção: printf(...)
+
+11.5)
+erro: comentário /* sem fechamento
+correção: /* ... */
+
+11.6)
+erro: comentário /* com fechamento duplicado
+correção: /* ... */
+
+11.7)
+erro: "printf(Hello World)" sem aspas no argumento
+correção: printf("Hello World")
+
+11.8)
+erro: "printf(...)" sem ponto e vírgula
+correção: printf(...);
+
+11.9)
+erro: "include" sem o caractere #
+
+11.91)
+erro: string com aspas simples, ao invés de duplas
+
+12)
+d) Comentários quando for conveniente
+
+13)
+d) Comentários não afetam a velocidade, pois são ignorados
+
+14)
+Os comentários:
+a) podem ocupar várias linhas
+d) começam e terminam por /* */
+e) não influenciam na velocidade
+
+15)
+#include <stdio.h>
+main()
+{
+    printf("Bem-vindos ao /Mundo\\ da programação em \"C\"");
+}
+
+16)
+#include <stdio.h>
+main()
+{
+    printf("  *  \n");
+    printf(" *** \n");
+    printf("*****\n");
+    printf(" /|\\ \n");
+}
+
+17)
+#include <stdio.h>
+main()
+{
+    printf("Total\t=\t100%%\n");
+    printf("IVA\t=\t17%%\n");
+    printf("IRS\t=\t15%%\n");
+    printf("---------------------\n");
+    printf("Liq.\t=\t68%%\n");
+}
+
+18)
+Diferente de printf(), puts() pula reserva uma nova linha, sem precisar de \n
